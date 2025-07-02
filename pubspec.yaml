@@ -1,0 +1,47 @@
+name: novafit_gym
+description: "Aplicación móvil para gimnasio NovaFit con sistema de reservas"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase - Versiones más recientes
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+
+  # State Management
+  provider: ^6.1.2
+
+  # UI & Animation
+  google_fonts: ^6.2.1
+  animate_do: ^3.3.4
+  cached_network_image: ^3.3.1
+
+  # Utilities
+  intl: ^0.19.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.2
+  permission_handler: ^11.3.1
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/images/

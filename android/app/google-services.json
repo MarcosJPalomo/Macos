@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "427010099137",
+    "project_id": "novafitapp-9e463",
+    "storage_bucket": "novafitapp-9e463.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427010099137:android:01a66794f5874bb2c21140",
+        "android_client_info": {
+          "package_name": "com.example.novafit_gym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpFAqRHjzeX0FXjY9JpptDr97H7hR6nQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
